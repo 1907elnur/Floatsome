@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+.class i{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 18px;
+    transform: scale(var(--ggs,1))
+}
+.content img{
+background-image: url(https://e-sederek.az/11125-home_default/mitsubishi-electric-mshmuh-gf50va.jpg);
+padding: 0 2 0;
+align-items: flex-start;
+position: relative ;
+}
+
+.content a{
+    display: grid ;
+}
+
+.second a, span{
+    display: grid;
+}
+
+.third span, a{
+    display: grid;
+}
+
+
+@media (max-width:576px) {
+    .container{
+        padding: 0 1rem;
+    }
+    .header-all{
+        display: none;
+    }
+}
